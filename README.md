@@ -12,7 +12,7 @@
  - Railsアプリケーションを実装する(refileを使用する場合)
  - Railsアプリケーションを実装する(ActiveStorageを使用する場合)
  - まとめ
-### 【補足コンテンツ】
+### 【補足コンテンツ-I】
 ## 用語説明
 ### IT用語
  - TCP/IP…プロトコル群（通信規約）の相称
@@ -105,4 +105,4 @@
 #### アプリケーション統合サービス
  - Amazon SNS (Simple Notification Service)…AWS が提供する、メッセージ配信を提供するマネージド型のサービス
 #### セキュリティ、ID、およびコンプライアンスサービス
- - ACM (AWS Certificate Manager)…AWS サービスと SSL 証明書の管理を簡単に
+ - ACM (AWS Certificate Manager)…AWS サービスと SSL 証明書の管理を簡単にするツール
