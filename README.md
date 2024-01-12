@@ -109,7 +109,7 @@
 #### Macの場合
  - $ ifconfig en0
 #### Windowsの場合
- - >ipconfig
+ - $ ipconfig
    ifconfigやipconfigは、ネットワークインターフェースの状況を確認するコマンド
    10.0.0.0 ～ 10.255.255.255
    172.16.0.0 ～ 172.31.255.255
@@ -126,14 +126,14 @@
 ##### 補足：パブリックDNSサーバー
  - nslookupコマンドでは、DNSサーバーを指定しない場合、自動的に問い合わせ先を判断してドメイン名とIPアドレスの変換を行いますが、DNSサーバーを指定することが可能です。
  - 下記は、GoogleのパブリックDNSサーバーに問い合わせを行った例を示しています。
-  ec2-user:~/environment $ nslookup google.com 8.8.8.8
-  Server:         8.8.8.8
-  Address:        8.8.8.8#53
+  >ec2-user:~/environment $ nslookup google.com 8.8.8.8
+   Server:         8.8.8.8
+   Address:        8.8.8.8#53
 
-  Non-authoritative answer:
-  Name:   google.com
-  Address: 142.251.222.46
-  Name:   google.com
-  Address: 2404:6800:4004:80f::200e
-   自身のネットワークの接続が不安定な時などに、DNSサーバーにパブリックDNSサーバーを指定することで接続が改善されるケースがあります。
+   Non-authoritative answer:
+   Name:   google.com
+   Address: 142.251.222.46
+   Name:   google.com
+   Address: 2404:6800:4004:80f::200e
+  - 自身のネットワークの接続が不安定な時などに、DNSサーバーにパブリックDNSサーバーを指定することで接続が改善されるケースがあります。
    パブリックDNSサーバーの存在は覚えておいて損は無いでしょう。
