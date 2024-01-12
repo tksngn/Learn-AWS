@@ -107,9 +107,9 @@
 ## 【補足コンテンツ-II】-IPアドレスを学ぼう
 ### IPアドレスとは？
 #### Macの場合
- - $ ifconfig en0
+   >$ ifconfig en0
 #### Windowsの場合
- - $ ipconfig
+   >ipconfig
  - ifconfigやipconfigは、ネットワークインターフェースの状況を確認するコマンド
  - パソコンに割り当てられているIPアドレス（住所）です。
    >10.0.0.0 ～ 10.255.255.255<br>
